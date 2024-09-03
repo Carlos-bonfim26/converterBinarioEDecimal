@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de sistemas númericos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Conversor de sistemas Númericos</h1>
+   <section>
+   
+    <main id="conversor">
+        <button id="toggleButton" >Usar Binário para Decimal</button> 
+        <input type="number" id="num" placeholder="digite o valor">
+        <button onclick="toggleConversao()" id="inverter"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+       
+        <input type="button" id="converter" value="Converter" onclick="calcular()">
+        <span id="result"></span> 
+    </main>
+  
+    <nav>
+    
+    </nav>
+   </section>
+    <script src="js/index.js"></script>
+</body>
+</html>
