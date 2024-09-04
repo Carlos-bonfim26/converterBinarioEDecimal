@@ -51,5 +51,6 @@ function toggleConversao() {
    
     let btn = document.getElementById('toggleButton');
     btn.textContent = usarDecimal ? "Usar Binário para Decimal " : "Usar Decimal para Binário";
+    document.getElementById('result').innerHTML = "";
 }
 
